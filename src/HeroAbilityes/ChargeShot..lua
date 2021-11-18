@@ -7,13 +7,13 @@
 Концентрируется внутри себя, ожидая 3 секунды. Затем быстро выстреливает 6 ударами, каждый удар при попадании по противнику взрывается в области 150.
 Можно прервать заряд (копит 1 удар каждые 0.5 сек)
 ]]
-function ChargeShoot(unit, xEnd, yEnd)
+function ChargeShoot(unit)
     local data = GetUnitData(unit)
     data.QPowerShotBreak = false
-    local chargeMacTime = 3
+    local chargeMaxTime = 3
     local chargePeriod = 0.5
     TimerStart(CreateTimer(), 0, false, function()
-        StunUnit(unit, chargeMacTime)
+        StunUnit(unit, chargeMaxTime)
         SetUnitTimeScale(unit, 0.1)
         SetUnitAnimationByIndex(unit, 5)
     end)
@@ -25,7 +25,7 @@ function ChargeShoot(unit, xEnd, yEnd)
         chargeCount = chargeCount + 1
         charge = charge + chargePeriod
         if not data.QPowerShotBreak then
-            if charge >= 3 then
+            if charge >= chargeMaxTime then
                 --print("полный каст способности")
                 CreateSpeedAttack(unit, chargeCount)
                 DestroyTimer(GetExpiredTimer())
@@ -45,7 +45,7 @@ function ChargeShoot(unit, xEnd, yEnd)
 end
 
 function CreateSpeedAttack(unit, attackCount)
-    StunUnit(unit, 10)
+    StunUnit(unit, 10) -- 10 значение от балды, ну типа не важно на сколько станим, ведь стан управление будет вернуто досрочно
     print("делаем ", attackCount, "быстрых аттак")
     local speedAttackPeriod = 0.2
     SetUnitTimeScale(unit, 3)
@@ -66,5 +66,5 @@ end
 
 function SpeedAttackSingle(unit)
     SetUnitAnimationByIndex(unit, 0)
-    CreateAndForceBullet(unit, GetUnitFacing(unit), 40, "Abilities\\Weapons\\Mortar\\MortarMissile.mdl")
+    CreateAndForceBullet(unit, GetUnitFacing(unit), 40, "Abilities\\Weapons\\Mortar\\MortarMissile.mdl",nil,nil,150)
 end

@@ -12,11 +12,60 @@ function CreateUnitsForPlayer0()
     IssueImmediateOrder(u, "")
 end
 
+function CreateUnitsForPlayer1()
+    local p = Player(1)
+    local u
+    local unitID
+    local t
+    local life
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 256.3, 313.6, 84.092, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 224.4, 136.7, 352.628, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 213.9, -12.1, 63.020, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 248.4, -110.7, 105.076, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 321.7, -159.3, 258.132, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 334.7, 141.3, 91.761, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 375.3, -99.7, 351.321, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 385.1, -159.5, 271.382, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 304.0, -40.6, 345.904, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), 280.6, 43.7, 75.094, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -207.5, 640.4, 175.677, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -239.0, 582.8, 93.661, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -210.9, 504.6, 236.048, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -177.3, 497.6, 43.189, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -146.2, 508.8, 339.807, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -124.0, 566.6, 159.197, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -133.2, 631.2, 207.285, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -165.8, 654.4, 158.713, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -184.3, 576.9, 179.962, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -862.2, 582.1, 305.264, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -958.2, 361.2, 210.515, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -967.4, 291.1, 301.441, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -933.5, 259.3, 99.902, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -879.8, 269.8, 202.352, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -842.4, 330.5, 286.928, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -850.9, 382.4, 310.022, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -881.3, 395.3, 319.932, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -924.4, 355.5, 287.576, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -1001.6, -519.4, 92.156, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -941.4, -594.2, 293.421, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -888.0, -577.0, 110.130, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -918.1, -505.7, 330.149, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -947.2, -472.1, 255.660, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -961.0, -522.8, 281.731, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -924.3, -560.6, 350.233, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -204.4, -874.5, 317.932, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -26.5, -889.2, 62.086, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -127.9, -749.0, 83.872, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -131.2, -823.4, 346.025, FourCC("hpea"))
+    u = BlzCreateUnitWithSkin(p, FourCC("hpea"), -104.4, -862.0, 231.632, FourCC("hpea"))
+end
+
 function CreatePlayerBuildings()
 end
 
 function CreatePlayerUnits()
     CreateUnitsForPlayer0()
+    CreateUnitsForPlayer1()
 end
 
 function CreateAllUnits()
@@ -619,13 +668,13 @@ end
 Концентрируется внутри себя, ожидая 3 секунды. Затем быстро выстреливает 6 ударами, каждый удар при попадании по противнику взрывается в области 150.
 Можно прервать заряд (копит 1 удар каждые 0.5 сек)
 ]]
-function ChargeShoot(unit, xEnd, yEnd)
+function ChargeShoot(unit)
     local data = GetUnitData(unit)
     data.QPowerShotBreak = false
-    local chargeMacTime = 3
+    local chargeMaxTime = 3
     local chargePeriod = 0.5
     TimerStart(CreateTimer(), 0, false, function()
-        StunUnit(unit, chargeMacTime)
+        StunUnit(unit, chargeMaxTime)
         SetUnitTimeScale(unit, 0.1)
         SetUnitAnimationByIndex(unit, 5)
     end)
@@ -637,7 +686,7 @@ function ChargeShoot(unit, xEnd, yEnd)
         chargeCount = chargeCount + 1
         charge = charge + chargePeriod
         if not data.QPowerShotBreak then
-            if charge >= 3 then
+            if charge >= chargeMaxTime then
                 --print("полный каст способности")
                 CreateSpeedAttack(unit, chargeCount)
                 DestroyTimer(GetExpiredTimer())
@@ -657,7 +706,7 @@ function ChargeShoot(unit, xEnd, yEnd)
 end
 
 function CreateSpeedAttack(unit, attackCount)
-    StunUnit(unit, 10)
+    StunUnit(unit, 10) -- 10 значение от балды, ну типа не важно на сколько станим, ведь стан управление будет вернуто досрочно
     print("делаем ", attackCount, "быстрых аттак")
     local speedAttackPeriod = 0.2
     SetUnitTimeScale(unit, 3)
@@ -678,7 +727,7 @@ end
 
 function SpeedAttackSingle(unit)
     SetUnitAnimationByIndex(unit, 0)
-    CreateAndForceBullet(unit, GetUnitFacing(unit), 40, "Abilities\\Weapons\\Mortar\\MortarMissile.mdl")
+    CreateAndForceBullet(unit, GetUnitFacing(unit), 40, "Abilities\\Weapons\\Mortar\\MortarMissile.mdl",nil,nil,150)
 end
 ---
 --- Generated by EmmyLua(https://github.com/EmmyLua)

@@ -1,44 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c16f197-6ec6-4849-932e-a5195b6b6230" name="Default Changelist" comment="Create">
-      <change afterPath="$PROJECT_DIR$/map.w3x/war3map.w3a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/map.w3x/war3map.w3u" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HeroAbilityes/ChargeShot..lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/BlockItem.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/BonusMode.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/CastSystem.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/ChalingBar.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/CreateAndForceBullet.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/CustomEffect.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/DamageSystem.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/DisablePassAbility.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/DisarmSystem.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/Entire.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/FearSystem.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/FinderPointer.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/HealUnit.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/InitGlobals.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/KeyRegistrator.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/KvaziPhisics.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/LearnEvent.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/LeavePlayer.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/MagicImmune.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/MarkCreator.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/SlowMovemenSystemPercent.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/SpellCast.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/StunSystem.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/UnitDead.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/UnitStealMana.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/System/VisualPointer.lua" afterDir="false" />
+    <list default="true" id="2c16f197-6ec6-4849-932e-a5195b6b6230" name="Default Changelist" comment="First Spell">
+      <change afterPath="$PROJECT_DIR$/W3X.w3x" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.lua" beforeDir="false" afterPath="$PROJECT_DIR$/build.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.w3x/war3map.lua" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.w3x/war3map.mmp" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.mmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.w3x/war3map.w3e" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.w3e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.w3x/war3map.w3i" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.w3i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.w3x/war3map.wct" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.wct" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.w3x/war3map.wts" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.wts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.w3x/war3map.wpm" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3map.wpm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.w3x/war3mapMap.blp" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3mapMap.blp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.w3x/war3mapUnits.doo" beforeDir="false" afterPath="$PROJECT_DIR$/map.w3x/war3mapUnits.doo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeroAbilityes/ChargeShot..lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeroAbilityes/ChargeShot..lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637255028971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Spell">
+      <created>1637263959342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637263959342</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create" />
+    <MESSAGE value="First Spell" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Spell" />
   </component>
 </project>
