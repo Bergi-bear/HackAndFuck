@@ -23,3 +23,15 @@ STRING 5
 Force 1
 }
 
+STRING 6
+// Abilities: A000 (Поддержание), Hotkey (Hotkey - Normal)
+{
+Q
+}
+
+STRING 7
+// Abilities: A000 (Поддержание), Researchhotkey (Hotkey - Learn)
+{
+Q
+}
+
